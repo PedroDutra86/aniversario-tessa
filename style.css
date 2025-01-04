@@ -15,30 +15,23 @@ body {
   transition: 4s;
 }
 
-.birthdayCard:hover {
-  transform: perspective(2500px) rotate(5deg);
-  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.15),
-    0 10px 100px rgba(0, 0, 0, 0.3);
-  border-radius: 1rem;
-}
-
-.birthdayCard:hover .cardFront {
+.birthdayCard:active .cardFront {
   transform: rotateY(-160deg);
 }
 
-.birthdayCard:hover .front-text {
+.birthdayCard:active .front-text {
   display: none;
 }
 
-.birthdayCard:hover .wrap-deco {
+.birthdayCard:active .wrap-deco {
   display: none;
 }
 
-.birthdayCard:hover .wrap-decoTwo {
+.birthdayCard:active .wrap-decoTwo {
   display: none;
 }
 
-.birthdayCard:hover .plate {
+.birthdayCard:active .plate {
   display: none;
 }
 
